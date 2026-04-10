@@ -31,9 +31,7 @@ export function StructuredData() {
       knowsAbout: [
         'Full Stack Development',
         'MERN Stack',
-        'MEAN Stack',
         'Nest.js',
-        'Angular',
         'React.js',
         'Next.js',
         'Node.js',
@@ -51,7 +49,7 @@ export function StructuredData() {
       '@type': 'ProfessionalService',
       name: 'Niranjan Das C.P - Full Stack Development Services',
       description:
-        'Full Stack Developer (MERN, MEAN, Nest.js) specializing in React, Angular, Next.js, Node.js, Nest.js, TypeScript, MongoDB, and PostgreSQL.',
+        'Full Stack Developer (MERN, Nest.js) specializing in React, Next.js, Node.js, Nest.js, TypeScript, MongoDB, and PostgreSQL.',
       provider: {
         '@type': 'Person',
         name: 'Niranjan Das C.P',
@@ -63,7 +61,6 @@ export function StructuredData() {
       serviceType: [
         'Web Development',
         'Full Stack Development',
-        'Technical Training',
         'Software Development',
       ],
     };

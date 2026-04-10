@@ -35,21 +35,21 @@ export const socialLinks: SocialLinkItem[] = [
     label: 'LinkedIn',
     iconKey: 'linkedin',
   },
-  // {
-  //   href: 'https://dev.to/niranjandascp',
-  //   label: 'DEV Community',
-  //   iconKey: 'devto',
-  // },
+  {
+    href: 'https://dev.to/niranjandascp',
+    label: 'DEV Community',
+    iconKey: 'devto',
+  },
   {
     href: 'https://www.youtube.com/@UNKNOW_FLICKY',
     label: 'YouTube',
     iconKey: 'youtube',
   },
-  // {
-  //   href: 'https://www.instagram.com/abubakthiyar',
-  //   label: 'Instagram',
-  //   iconKey: 'instagram',
-  // },
+  {
+    href: 'https://www.instagram.com/niranjandascp/',
+    label: 'Instagram',
+    iconKey: 'instagram',
+  },
   {
     href: 'https://wa.me/918921627502',
     label: 'WhatsApp',

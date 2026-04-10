@@ -256,11 +256,11 @@ export function TerminalWindow() {
         addResponse([
           <div key="whoami" className="flex flex-col gap-1">
             <span className="font-bold text-white">
-              <Typewriter text="abdulvahab@workspace" speed={5} />
+              <Typewriter text="niranjandas.dev@workspace" speed={5} />
             </span>
             <span className="text-gray-300">
               <Typewriter
-                text="Full Stack Developer (MERN, MEAN, Nest.js)"
+                text="Full Stack Developer (MERN, Nest.js)"
                 delay={50}
                 speed={5}
               />

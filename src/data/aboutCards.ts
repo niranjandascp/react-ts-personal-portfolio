@@ -16,7 +16,6 @@ export const whoAmICard: AboutCardItem = {
   description: [
     'Full Stack Developer with hands-on experience in scalable web applications.',
     'Passionate about clean architecture and modern JavaScript technologies.',
-    'Technical trainer focusing on simplifying complex concepts.',
   ],
   color: 'bg-blue-600',
 };

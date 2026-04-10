@@ -10,7 +10,7 @@ interface SEOProps {
 
 export function SEO({
   title = 'Niranjan Das C.P - Full Stack Developer | Portfolio',
-  description = 'Full Stack Developer (MERN, MEAN, Nest.js)from Thrissur, Kerala. Specializing in React, Angular, Next.js, Node.js, Nest.js, TypeScript, MongoDB, and PostgreSQL.',
+  description = 'Full Stack Developer (MERN, Nest.js)from Thrissur, Kerala. Specializing in React, Next.js, Node.js, Nest.js, TypeScript, MongoDB, and PostgreSQL.',
   image = 'https://niranjandascp.in/assets/profile.png',
   url = 'https://niranjandascp.in/',
   type = 'website',

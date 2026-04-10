@@ -22,7 +22,7 @@ export const services: ServiceItem[] = [
     icon: MonitorPlay,
     title: 'Web Development Training',
     description:
-      'Providing MERN, MEAN, Nest.js, Angular, and Django tutoring, YouTube lessons, and professional training at G-TECH',
+      'Providing MERN, Nest.js, and Django tutoring, YouTube lessons, and professional training at G-TECH',
     color: 'bg-purple-500',
     image: '/assets/training.png',
   },

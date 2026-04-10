@@ -63,55 +63,63 @@ export function Navbar() {
                         : 'bg-transparent'
                     }`}
       >
-        <div className="flex items-center justify-between h-12 px-4">
+        <div className="flex items-center h-12 px-4">
           {/* Logo */}
-          <div className="cursor-pointer">
-            <img src="/assets/favicon.png" alt="Logo" className="h-8 w-auto" />
+          <div className="flex-1 flex items-center justify-start">
+            <div className="cursor-pointer">
+              <img src="/assets/favicon.png" alt="Logo" className="h-8 w-auto" />
+            </div>
           </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex space-x-5 items-center relative">
+          {/* Desktop Navigation Links */}
+          <div className="hidden lg:flex items-center gap-8">
             {navLinks.map(link => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="relative text-sm text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:scale-105"
+                className="relative px-2 py-1 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:scale-105 transition-all"
               >
                 {link.label}
                 {activeSection === link.href.substring(1) && (
                   <motion.div
                     layoutId="underline"
                     className="absolute -bottom-1 left-0 w-full h-[2px] bg-blue-600 dark:bg-blue-400"
-                    transition={{ type: 'spring', stiffness: 500, damping: 20 }} // Faster animation
+                    transition={{ type: 'spring', stiffness: 500, damping: 20 }}
                   />
                 )}
               </Link>
             ))}
-
-            <ThemeToggle isDark={isDark} onToggle={toggleTheme} />
-            <Link
-              href="#contact"
-              className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-blue-600 text-white text-sm hover:bg-blue-700 hover:text-white dark:text-white dark:hover:text-white"
-            >
-              Request a Project
-              <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
-            </Link>
           </div>
 
-          {/* Mobile menu button */}
-          <div className="flex lg:hidden items-center space-x-2">
-            <ThemeToggle isDark={isDark} onToggle={toggleTheme} />
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700"
-              aria-label="Toggle menu"
-            >
-              {isOpen ? (
-                <X className="w-5 h-5" />
-              ) : (
-                <Menu className="w-5 h-5" />
-              )}
-            </button>
+          {/* Right Side Actions */}
+          <div className="flex-1 flex items-center justify-end">
+            {/* Desktop Actions */}
+            <div className="hidden lg:flex items-center gap-6">
+              <ThemeToggle isDark={isDark} onToggle={toggleTheme} />
+              <Link
+                href="#contact"
+                className="flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 hover:scale-105 transition-all shadow-md hover:shadow-blue-500/25"
+              >
+                Request a Project
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+
+            {/* Mobile menu button */}
+            <div className="flex lg:hidden items-center space-x-2">
+              <ThemeToggle isDark={isDark} onToggle={toggleTheme} />
+              <button
+                onClick={() => setIsOpen(!isOpen)}
+                className="p-2 rounded-lg bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700"
+                aria-label="Toggle menu"
+              >
+                {isOpen ? (
+                  <X className="w-5 h-5" />
+                ) : (
+                  <Menu className="w-5 h-5" />
+                )}
+              </button>
+            </div>
           </div>
         </div>
 

@@ -9,8 +9,7 @@ export function Hero() {
   const roles = [
     'Full Stack Developer',
     'Node.js & Nest.js Backend Developer',
-    'Angular & React.js Frontend Developer',
-    'Technical Trainer',
+    'React.js Frontend Developer',
     'Digital Content Creator',
   ];
 
