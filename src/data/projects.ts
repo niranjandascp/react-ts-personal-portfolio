@@ -75,7 +75,7 @@ export const projects: ProjectItem[] = [
     link: 'https://github.com/niranjandascp/rest-api-ts-docker',
     github: 'https://github.com/niranjandascp/rest-api-ts-docker',
     techStack: [
-      techStacks.node,
+      // techStacks.node,
       { icon: SiExpress, name: 'Express', color: '#000' },
       techStacks.typescript,
       techStacks.mongodb,
@@ -84,7 +84,7 @@ export const projects: ProjectItem[] = [
     ],
   },
   {
-    title: 'Mini Torque E-commerce',
+    title: 'Mini Torque Webapp',
     description:
       'A full-stack e-commerce application built with Next.js, TypeScript and Tailwind CSS. It features real-time updates, a sleek UI, and a robust backend to handle all your shopping needs.',
     image: '/assets/img/mini-torque.png',
