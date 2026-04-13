@@ -267,7 +267,7 @@ export function TerminalWindow() {
             </span>
             <span className="italic text-gray-400">
               <Typewriter
-                text="building scalable web apps and training developers"
+                text="building scalable web apps, solving real-world problems with code"
                 delay={100}
                 speed={5}
               />
@@ -317,7 +317,7 @@ export function TerminalWindow() {
             <span className="flex items-center gap-2">
               <span className="text-cyan-400">→</span>{' '}
               <Typewriter
-                text="training developers in modern stack"
+                text="Focus on one task at a time for better results"
                 delay={100}
                 speed={5}
               />
