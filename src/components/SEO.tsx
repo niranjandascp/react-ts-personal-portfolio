@@ -11,8 +11,8 @@ interface SEOProps {
 export function SEO({
   title = 'Niranjan Das C.P - Full Stack Developer | Portfolio',
   description = 'Full Stack Developer (MERN, Nest.js)from Thrissur, Kerala. Specializing in React, Next.js, Node.js, Nest.js, TypeScript, MongoDB, and PostgreSQL.',
-  image = 'https://niranjandascp.in/assets/profile.png',
-  url = 'https://niranjandascp.in/',
+  image = 'https://niranjandas.in/assets/profile.png',
+  url = 'https://niranjandas.in/',
   type = 'website',
 }: SEOProps) {
   useEffect(() => {
@@ -45,12 +45,6 @@ export function SEO({
     updateMetaTag('og:image', image, 'property');
     updateMetaTag('og:url', url, 'property');
     updateMetaTag('og:type', type, 'property');
-
-    // Update Twitter Card tags
-    updateMetaTag('twitter:title', title);
-    updateMetaTag('twitter:description', description);
-    updateMetaTag('twitter:image', image);
-    updateMetaTag('twitter:url', url);
 
     // Update canonical URL
     let canonical = document.querySelector(

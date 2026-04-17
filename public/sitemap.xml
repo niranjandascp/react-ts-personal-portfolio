@@ -5,7 +5,7 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Single-page portfolio: one canonical URL. Hash sections (#about, #services, etc.) are the same document. -->
   <url>
-    <loc>https://niranjandascp.in/</loc>
+    <loc>https://niranjandas.in/</loc>
     <lastmod>2025-02-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>

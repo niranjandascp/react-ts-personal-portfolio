@@ -7,13 +7,9 @@ export function StructuredData() {
       '@context': 'https://schema.org',
       '@type': 'Person',
       name: 'Niranjan Das C.P',
-      url: 'https://niranjandascp.in/',
-      image: 'https://niranjandascp.in/assets/profile.png',
+      url: 'https://niranjandas.in/',
+      image: 'https://niranjandas.in/assets/profile.png',
       jobTitle: 'Full Stack Developer',
-      worksFor: {
-        '@type': 'Organization',
-        name: 'iCover Insure',
-      },
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Kaduppassery, Thrissur',
@@ -25,8 +21,7 @@ export function StructuredData() {
         'https://linkedin.com/in/niranjandascp',
         'https://dev.to/niranjandascp',
         'https://x.com/niranjandascp',
-        'https://leetcode.com/u/niranjandascp/',
-        'https://twitter.com/niranjandascp',
+        'https://leetcode.com/u/niranjandascp/'
       ],
       knowsAbout: [
         'Full Stack Development',
@@ -70,7 +65,7 @@ export function StructuredData() {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       name: 'Niranjan Das C.P Portfolio',
-      url: 'https://niranjandascp.in/',
+      url: 'https://niranjandas.in/',
       description:
         'Portfolio website of Niranjan Das C.P - Full Stack Developer',
       author: {

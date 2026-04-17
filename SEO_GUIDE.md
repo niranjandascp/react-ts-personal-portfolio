@@ -1,4 +1,4 @@
-# SEO Optimization Guide for niranjandascp.in
+# SEO Optimization Guide for niranjandas.in
 
 ## ✅ What Has Been Implemented
 
@@ -46,9 +46,9 @@
 ### 1. **Google Search Console Setup**
 
 1. Go to [Google Search Console](https://search.google.com/search-console)
-2. Add your property: `https://niranjandascp.in`
+2. Add your property: `https://niranjandas.in`
 3. Verify ownership (DNS record or HTML file)
-4. Submit your sitemap: `https://niranjandascp.in/sitemap.xml`
+4. Submit your sitemap: `https://niranjandas.in/sitemap.xml`
 5. Request indexing for your homepage
 
 ### 2. **Google Analytics (Optional but Recommended)**
@@ -110,7 +110,7 @@ Edit `src/components/StructuredData.tsx` and `index.html` (Person schema) and ad
   - Twitter/X
   - GitHub profile
   - DEV Community (dev.to/niranjandascp), Hashnode, Medium (if you write articles)
-- Add your website URL (https://niranjandascp.in) to your social media profiles, including your DEV.to profile
+- Add your website URL (https://niranjandas.in) to your social media profiles, including your DEV.to profile
 
 ### 11. **Regular Updates**
 
@@ -182,4 +182,4 @@ Feel free to ask or refer to Google's official SEO documentation.
 ---
 
 **Last Updated**: January 2025
-**Domain**: https://niranjandascp.in
+**Domain**: https://niranjandas.in

@@ -2,7 +2,7 @@ import { useEffect, lazy, Suspense } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
-// import { Services } from './components/Services';
+import { Services } from './components/Services';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 // import { Gallery } from './components/Gallery';
@@ -56,7 +56,7 @@ function App() {
           <Navbar />
           <Hero />
           <About />
-          {/* <Services /> */}
+          <Services />
           <Skills />
           {/* <Achievements /> */}
           <Projects />
